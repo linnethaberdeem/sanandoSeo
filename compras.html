@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="description" content="aceptamos todos los medios de pago">
+    <meta name="keywords" content="compras, mastercard, visa, uala, brubank, pais"> 
+    <link rel="shortcut icon" href="/imag/meditacion.png">
+    <title>Compras</title>
+</head>
+<body>
+    <h1>Compras</h1>
+    
+    <form action="" method="post">
+      <fieldset>
+        <legend>Datos para la compra</legend>
+
+        <p>
+            <label for="nombre" id="nombre"name="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" required >
+        </p>
+        <p>
+            <label for="apellido" id="apellido"name="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido"required >
+        </p>
+        <p>
+            <label for="email" id="email"name="email" >Email:</label>
+            <input type="email" name="email" id="email" placeholder="email@sitio.com" required>
+        </p>
+        <p>
+            <label for="telefono" id="telefono"name="telefono" >Teléfono:</label>
+            <input type="number" name="telefono" id="telefono">
+        </p>
+
+        <p>
+            <label for="nombre en la tarjeta" id="nombre en la tarjeta"name="nombre en la tarjeta" >Titular de la tarjeta</label>
+            <input type="text" name="nombre en la tarjeta" id="nombre en la tarjeta"required>
+        </p>
+        <p>
+            <label for="Numero de tarjeta" id="numero de tarjeta"name="numero de tarjeta">Número de la tarjeta</label>
+            <input type="number" name="numero de tarjeta" id="numero de tarjeta"required>
+        </p>
+        <p>
+            <label for="cvc" id="cvc"name="cvc" >CVC</label>
+            <input type="number" name="cvc" id="cvc" placeholder="los 3 digitos detrás"required >
+        </p>
+        <p>
+        <label for="vencimiento" id="vencimiento"name="vencimiento" >Vencimiento</label>
+        <input type="number" name="vencimiento" id="vencimiento">
+        </p>
+        <p>
+            <label for="tarjeta" id="tarjeta"name="tarjeta" >
+                <span>Tipo de Tarjeta</span>
+            </label>
+            <select name="card" id="card">
+                <option value="visa">Visa</option>
+                <option value="mastercard">MasterCard</option>
+                <option value="american">American Express</option>
+                <option value="uala">Uala</option>
+                <option value="brubank">Brubank</option>
+            </select>
+        </p>
+        
+        <p>
+            <input type="submit" value="Comprar">
+        </p>
+        <p>
+            <input type="reset" value="Borrar compra">
+        </p>
+        
+        
+    </fieldset> 
+</form>
+
+
+
+<a href="/index.html">Home</a>
+</body>
+<footer>
+
+</footer>
+</html>

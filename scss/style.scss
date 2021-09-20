@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.bg_animate{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(67, 67, 223),rgb(90, 136, 236));
+}
+.header_nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header_nav .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.header_nav h1{
+    color: rgb(248, 244, 239);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.header_nav nav a{
+    color: rgb(248, 244, 239);
+    text-decoration: none;
+    margin-right: 10px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.banner_title h2{
+    color: rgb(248, 244, 239);
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner_title .registrate{
+    color: rgb(248, 244, 239);
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background: rgb(222, 157, 250);
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner_title .inicia{
+    color: rgb(248, 244, 239);
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background: rgb(222, 157, 250);
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner_img{
+    animation-name: movimiento;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.banner_img img{
+    width: 300px;
+    display: block;
+}
+.bubble{
+    border-radius: 50%;
+    background: rgb(231, 237, 247);
+    opacity: 3;
+
+    position: absolute;
+    bottom: -150;
+    
+    animation-name: burbuja;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.bubble:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 5s;
+    animation-delay: 8s;
+}
+.bubble:nth-child(2){
+    width: 100px;
+    height: 100px;
+    left: 45%;
+    animation-duration: 5s;
+    animation-delay: 10s;
+}
+.bubble:nth-child(3){
+    width: 20px;
+    height: 20px;
+    left: 15%;
+    animation-duration: 1.5s;
+    animation-delay: 7s;
+}
+.bubble:nth-child(4){
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    animation-duration: 6s;
+    animation-delay: 3s;
+}
+.bubble:nth-child(5){
+    width: 70px;
+    height: 70px;
+    left: 65%;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+.bubble:nth-child(6){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 5s;
+}
+.bubble:nth-child(7){
+    width: 20px;
+    height: 20px;
+    left: 41%;
+    animation-duration: 4s;
+    animation-delay: 6s;
+}
+.bubble:nth-child(8){
+    width: 100px;
+    height: 100px;
+    left: 52%;
+    animation-duration: 5s;
+    animation-delay: 5s;
+}
+.bubble:nth-child(9){
+    width: 65px;
+    height: 65px;
+    left: 51%;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+.bubble:nth-child(10){
+    width: 40px;
+    height: 40px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+
+
+@keyframes burbuja{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    30%{
+        transform: translate(30px);
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+}
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@media (max-width: 600px){
+    .bg_animate{
+        flex-direction: column;
+    }
+}
+
+/* Nuestra Historia*/
+
+.tituloHis{
+    font-family: 'Hina Mincho', serif;
+    font-size: 25px;
+    display: flex;
+    background-color: rgb(252, 233, 241);
+    color: rgb(180, 178, 250);
+    text-align: center;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+.subtituloHis{
+    font-family: 'Hina Mincho', serif;
+    font-size: 25px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    color: rgb(250, 153, 213);
+}
+
+
+.parrafoHis{
+    font-family: 'Hina Mincho', serif;
+    font-size: 20px;
+    padding: 35px;
+    margin-left: 10px; 
+    margin-right: 10px;
+    line-height: 45px;
+    text-align: justify;
+}
+
+.listaHis{ 
+    display: flex;
+    font-family: "Hina Mincho", serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    text-align: justify;
+    padding-left: 60px;
+    padding-right: 50px;
+    margin-left: 10px; 
+    margin-right: 10px;
+    line-height: 45px;
+}
+
+.bordeHis{
+    border: 1px dashed crimson;
+    background-color: rgb(223, 242, 248);
+    margin: 25px;
+}        
+
+.imagenHis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/*Pestaña Productos*/
+
+.tituloPro{
+    font-family: 'Hina Mincho', serif;
+    font-size: 50px;
+    display: flex;
+    background-color: rgb(252, 233, 241);
+    color: rgb(180, 178, 250);
+    text-align: center;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+.subtituloPro{
+    font-family: 'Hina Mincho', serif;
+    font-size: 40px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    color: rgb(250, 153, 213);
+    text-underline-offset: 1px;
+}
+.seccionPro{
+    font-family: 'Hina Mincho', serif;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+
+.leeras{
+    display: none;
+}
+
+.objetivo{
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+}
+.leeras:checked~.leerMas .objetivo{
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+}
+.leeras~.leerMasmas:before{
+    content: "Leer más";
+}
+.leeras:checked~.LeerMasmas:before{
+    content: "Leer Menos";
+}
+
+.leerMasmas{
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.5em;
+    color: #666;
+    font-size: .9em;
+    line-height: 2;
+    border: 1px solid #ddd;
+    border-radius: .25em;
+}
+
+/*Nuestros Servicios*/
+
+.tituloSer{
+    font-family: 'Hina Mincho', serif;
+    font-size: 50px;
+    display: flex;
+    background-color: rgb(252, 233, 241);
+    color: rgb(180, 178, 250);
+    text-align: center;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+.subtituloSer{
+    font-family: 'Hina Mincho', serif;
+    font-size: 40px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    color: rgb(250, 153, 213);
+    text-underline-offset: 1px;
+}
+.subtituloServ{
+    font-family: 'Hina Mincho', serif;
+    font-size: 30px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    color: rgb(250, 153, 213);
+    text-underline-offset: 1px;
+}
+.aroma{
+    text-align: right;
+margin-right: 15px;
+}
+.reiki{
+    text-align: right;
+margin-right: 15px;
+}
+
+.servicios{
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    font-family: 'Hina Mincho', serif;
+    font-size: 20px;
+    
+}
+.servicios img{
+    display: block;
+    float: right;
+    width: 50%;
+    margin-top: 2px;
+    justify-content: right;
+}
+.foto img{
+    display: block;
+    float: left;
+    width: 50%;
+    margin-top: 2px;
+    justify-content: left;
+}
