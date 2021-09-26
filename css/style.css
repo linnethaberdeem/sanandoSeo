@@ -379,7 +379,7 @@ body {
   font-size: 30px;
   margin-bottom: 20px; }
 
-input, textarea {
+.formuIn, textarea {
   width: 100%;
   margin-bottom: 20px;
   padding: 7px;
@@ -391,22 +391,19 @@ textarea {
   max-height: 200px;
   max-width: 100%; }
 
-.botonF {
+.boton {
   background-color: darkslateblue;
   color: white;
-  padding: 10px; }
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  box-sizing: border-box; }
 
-.botonF:hover {
+.boton:hover {
   cursor: pointer; }
 
-.legend, .label, .subTituloF {
-  color: white;
-  text-align: center;
-  margin: 0; }
-
-.mapaF {
-  align-items: center;
-  text-align: center; }
+.subtituloF {
+  color: white; }
 
 @media (max-width: 480px) {
   form {
