@@ -387,3 +387,65 @@ margin-right: 15px;
     margin-top: 2px;
     justify-content: left;
 }
+/*formularios*/
+.body{
+    background-image: url(/imag/universo.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    margin-top: 5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+.tituloF{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input, textarea{
+width: 100%;
+margin-bottom: 20px;
+padding: 7px;
+box-sizing: border-box;
+border: none;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+.botonF{
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px;
+    
+}
+.botonF:hover{
+cursor: pointer;
+}
+.legend, .label, .subTituloF{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.mapaF{
+    align-items: center;
+    text-align: center;
+    
+}
+
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
+}
