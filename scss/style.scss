@@ -29,15 +29,31 @@ body{
     padding: 15px 0;
 }
 .header_nav h1{
-    color: rgb(248, 244, 239);
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(180, 178, 250);
+    font-family: 'Hina Mincho', serif;
     font-size: 50px;
 }
+.header_nav .tituloIndex{
+    color: #f8b2fa;
+    font-family: 'Hina Mincho', serif;
+    font-size: 70px;
+}
 .header_nav nav a{
-    color: rgb(248, 244, 239);
     text-decoration: none;
     margin-right: 10px;
+    font-size: 20px;
+    font-family: 'Hina Mincho', serif;
+    color:rgb(180, 178, 250);
 }
+
+.header_nav .navIndex a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 25px;
+    font-family: 'Hina Mincho', serif;
+    color: #f8b2fa;
+}
+
 .banner{
     display: flex;
     justify-content: space-between;
@@ -49,7 +65,7 @@ body{
     font-size: 45px;
     font-weight: 800;
     margin-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Hina Mincho', serif;
 }
 .banner_title .registrate{
     color: rgb(248, 244, 239);
@@ -58,7 +74,7 @@ body{
     display: inline-block;
     background: rgb(222, 157, 250);
     padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Hina Mincho', serif;;
 }
 
 .banner_title .inicia{
@@ -68,7 +84,7 @@ body{
     display: inline-block;
     background: rgb(222, 157, 250);
     padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Hina Mincho', serif;;
 }
 
 .banner_img{
@@ -208,10 +224,8 @@ body{
     display: flex;
     background-color: rgb(252, 233, 241);
     color: rgb(180, 178, 250);
-    text-align: center;
-    justify-content: center;
     padding-top: 45px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .subtituloHis{
@@ -264,14 +278,12 @@ body{
 
 .tituloPro{
     font-family: 'Hina Mincho', serif;
-    font-size: 50px;
+    font-size: 25px;
     display: flex;
     background-color: rgb(252, 233, 241);
     color: rgb(180, 178, 250);
-    text-align: center;
-    justify-content: center;
     padding-top: 45px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .subtituloPro{
@@ -333,10 +345,8 @@ body{
     display: flex;
     background-color: rgb(252, 233, 241);
     color: rgb(180, 178, 250);
-    text-align: center;
-    justify-content: center;
     padding-top: 45px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 .subtituloSer{
     font-family: 'Hina Mincho', serif;
@@ -394,7 +404,7 @@ margin-right: 15px;
     background-attachment: fixed;
     margin: 0;
     margin-top: 5%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Hina Mincho', serif;
 }
 .form{
     width: 450px;
@@ -402,22 +412,24 @@ margin-right: 15px;
     background: rgba(0, 0, 0, 0.4);
     padding: 10px 20px;
     box-sizing: border-box;
-    margin-top: 20px;
+    margin-top: 10%;
     border-radius: 7px;
 }
 .tituloF{
-    color: white;
-    text-align: center;
-    margin: 0;
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-family: 'Hina Mincho', serif;
+    font-size: 25px;
+    display: flex;
+    background-color: rgb(252, 233, 241);
+    color: rgb(180, 178, 250);
 }
 .formuIn, textarea{
-width: 100%;
-margin-bottom: 20px;
-padding: 7px;
-box-sizing: border-box;
-border: none;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Hina Mincho', serif;
+    font-size: medium;
 }
 textarea{
     min-height: 100px;
@@ -431,9 +443,10 @@ textarea{
     margin-top: 10px;
     width: 100%;
     box-sizing: border-box;
+    font-family: 'Hina Mincho', serif;
 }
 .boton:hover{
-cursor: pointer;
+    cursor: pointer;
 }
 .subtituloF{
     color: white;

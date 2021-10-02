@@ -30,14 +30,28 @@ body {
   padding: 15px 0; }
 
 .header_nav h1 {
-  color: #f8f4ef;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #b4b2fa;
+  font-family: 'Hina Mincho', serif;
   font-size: 50px; }
 
+.header_nav .tituloIndex {
+  color: #f8b2fa;
+  font-family: 'Hina Mincho', serif;
+  font-size: 70px; }
+
 .header_nav nav a {
-  color: #f8f4ef;
   text-decoration: none;
-  margin-right: 10px; }
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: 'Hina Mincho', serif;
+  color: #b4b2fa; }
+
+.header_nav .navIndex a {
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 25px;
+  font-family: 'Hina Mincho', serif;
+  color: #f8b2fa; }
 
 .banner {
   display: flex;
@@ -50,7 +64,7 @@ body {
   font-size: 45px;
   font-weight: 800;
   margin-bottom: 20px;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: 'Hina Mincho', serif; }
 
 .banner_title .registrate {
   color: #f8f4ef;
@@ -59,7 +73,7 @@ body {
   display: inline-block;
   background: #de9dfa;
   padding: 15px;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: 'Hina Mincho', serif; }
 
 .banner_title .inicia {
   color: #f8f4ef;
@@ -68,7 +82,7 @@ body {
   display: inline-block;
   background: #de9dfa;
   padding: 15px;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: 'Hina Mincho', serif; }
 
 .banner_img {
   animation-name: movimiento;
@@ -192,10 +206,8 @@ body {
   display: flex;
   background-color: #fce9f1;
   color: #b4b2fa;
-  text-align: center;
-  justify-content: center;
   padding-top: 45px;
-  padding-bottom: 20px; }
+  padding-bottom: 50px; }
 
 .subtituloHis {
   font-family: 'Hina Mincho', serif;
@@ -240,14 +252,12 @@ body {
 /*Pestaña Productos*/
 .tituloPro {
   font-family: 'Hina Mincho', serif;
-  font-size: 50px;
+  font-size: 25px;
   display: flex;
   background-color: #fce9f1;
   color: #b4b2fa;
-  text-align: center;
-  justify-content: center;
   padding-top: 45px;
-  padding-bottom: 20px; }
+  padding-bottom: 50px; }
 
 .subtituloPro {
   font-family: 'Hina Mincho', serif;
@@ -302,10 +312,8 @@ body {
   display: flex;
   background-color: #fce9f1;
   color: #b4b2fa;
-  text-align: center;
-  justify-content: center;
   padding-top: 45px;
-  padding-bottom: 20px; }
+  padding-bottom: 50px; }
 
 .subtituloSer {
   font-family: 'Hina Mincho', serif;
@@ -361,7 +369,7 @@ body {
   background-attachment: fixed;
   margin: 0;
   margin-top: 5%;
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'Hina Mincho', serif; }
 
 .form {
   width: 450px;
@@ -369,22 +377,24 @@ body {
   background: rgba(0, 0, 0, 0.4);
   padding: 10px 20px;
   box-sizing: border-box;
-  margin-top: 20px;
+  margin-top: 10%;
   border-radius: 7px; }
 
 .tituloF {
-  color: white;
-  text-align: center;
-  margin: 0;
-  font-size: 30px;
-  margin-bottom: 20px; }
+  font-family: 'Hina Mincho', serif;
+  font-size: 25px;
+  display: flex;
+  background-color: #fce9f1;
+  color: #b4b2fa; }
 
 .formuIn, textarea {
   width: 100%;
   margin-bottom: 20px;
   padding: 7px;
   box-sizing: border-box;
-  border: none; }
+  border: none;
+  font-family: 'Hina Mincho', serif;
+  font-size: medium; }
 
 textarea {
   min-height: 100px;
@@ -397,7 +407,8 @@ textarea {
   padding: 10px;
   margin-top: 10px;
   width: 100%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Hina Mincho', serif; }
 
 .boton:hover {
   cursor: pointer; }
