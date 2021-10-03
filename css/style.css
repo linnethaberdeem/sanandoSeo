@@ -49,7 +49,7 @@ body {
 .header_nav .navIndex a {
   text-decoration: none;
   margin-right: 10px;
-  font-size: 25px;
+  font-size: 23px;
   font-family: 'Hina Mincho', serif;
   color: #f8b2fa; }
 
@@ -199,7 +199,6 @@ body {
   .bg_animate {
     flex-direction: column; } }
 
-/* Nuestra Historia*/
 .tituloHis {
   font-family: 'Hina Mincho', serif;
   font-size: 25px;
@@ -305,7 +304,6 @@ body {
   border: 1px solid #ddd;
   border-radius: .25em; }
 
-/*Nuestros Servicios*/
 .tituloSer {
   font-family: 'Hina Mincho', serif;
   font-size: 50px;
@@ -362,6 +360,36 @@ body {
   margin-top: 2px;
   justify-content: left; }
 
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+  .header_nav .contenedor {
+    flex-direction: column; } }
+
+@media screen and (min-width: 732px) and (max-width: 768px) {
+  .header_nav .contenedor {
+    flex-direction: column; } }
+
+@media screen and (min-width: 320px) and (max-width: 549px) {
+  .header_nav .contenedor {
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box; }
+  .servicios img {
+    display: block;
+    width: 100%;
+    margin-top: 2px; }
+  .foto img {
+    display: block;
+    width: 100%; }
+  .subtituloSer {
+    margin-top: 40px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify; }
+  .form {
+    flex-direction: column;
+    margin-top: 40%;
+    width: 100%; } }
+
 /*formularios*/
 .body {
   background-image: url(/imag/universo.jpg);
@@ -415,7 +443,3 @@ textarea {
 
 .subtituloF {
   color: white; }
-
-@media (max-width: 480px) {
-  form {
-    width: 100%; } }

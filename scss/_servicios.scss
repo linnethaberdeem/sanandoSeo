@@ -1,0 +1,58 @@
+.tituloSer{
+    font-family: 'Hina Mincho', serif;
+    font-size: 50px;
+    display: flex;
+    background-color: rgb(252, 233, 241);
+    color: rgb(180, 178, 250);
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+.subtituloSer{
+    font-family: 'Hina Mincho', serif;
+    font-size: 40px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    color: rgb(250, 153, 213);
+    text-underline-offset: 1px;
+}
+.subtituloServ{
+    font-family: 'Hina Mincho', serif;
+    font-size: 30px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    color: rgb(250, 153, 213);
+    text-underline-offset: 1px;
+}
+.aroma{
+    text-align: right;
+margin-right: 15px;
+}
+.reiki{
+    text-align: right;
+margin-right: 15px;
+}
+
+.servicios{
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    font-family: 'Hina Mincho', serif;
+    font-size: 20px;
+    
+}
+.servicios img{
+    display: block;
+    float: right;
+    width: 50%;
+    margin-top: 2px;
+    justify-content: right;
+}
+.foto img{
+    display: block;
+    float: left;
+    width: 50%;
+    margin-top: 2px;
+    justify-content: left;
+}
