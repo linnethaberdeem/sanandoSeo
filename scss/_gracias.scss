@@ -1,0 +1,29 @@
+.contenedorG{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 10%;
+}
+.header_nav .contenedorGr{
+    margin: 5%;
+}
+.tituloG{
+    font-family: 'Hina Mincho', serif;
+    font-size: 50px;
+    color: rgb(180, 178, 250);
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+.body{
+    background-image: url(/imag/universo.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    margin-top: 5%;
+    font-family: 'Hina Mincho', serif;
+}
+h4{
+    font-family: 'Hina Mincho', serif;
+    font-size: 50px;
+    color: rgb(252, 233, 241) ;
+}
