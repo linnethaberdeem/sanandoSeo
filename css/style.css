@@ -458,7 +458,7 @@ textarea {
   max-height: 200px;
   max-width: 100%; }
 
-.boton {
+#boton {
   background-color: darkslateblue;
   color: white;
   padding: 10px;
@@ -467,7 +467,7 @@ textarea {
   box-sizing: border-box;
   font-family: 'Hina Mincho', serif; }
 
-.boton:hover {
+#boton:hover {
   cursor: pointer; }
 
 .subtituloF {
