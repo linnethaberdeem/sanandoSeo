@@ -36,7 +36,12 @@ body{
 .header_nav .tituloIndex{
     color: $subtitulos;
     font-family: 'Hina Mincho', serif;
-    font-size: 70px;
+    font-size: 60px;
+    max-width: 100%;
+    box-sizing: content-box;
+    padding: auto;
+    margin: auto;
+    flex-direction: column;
 }
 .header_nav nav a{
     text-decoration: none;
