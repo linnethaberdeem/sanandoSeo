@@ -1,11 +1,13 @@
 .tituloSer{
     font-family: 'Hina Mincho', serif;
-    font-size: 50px;
+    font-size: 35px;
     display: flex;
     background-color: rgb(252, 233, 241);
     color: rgb(180, 178, 250);
+    text-align: center;
+    justify-content: center;
     padding-top: 45px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .subtituloSer{
     font-family: 'Hina Mincho', serif;
@@ -45,7 +47,7 @@ margin-right: 15px;
 .servicios img{
     display: block;
     float: right;
-    width: 50%;
+    max-width: 50%;
     margin-top: 2px;
     justify-content: right;
 }

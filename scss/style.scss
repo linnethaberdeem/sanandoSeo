@@ -10,14 +10,15 @@ $subtitulos:#f8b2fa;
 @import "servicios";
 @import "mediasQ";
 @import "gracias";
+@import "productos";
 
 /*formularios*/
 .body{
-    background-image: url(/imag/universo.jpg);
+    background-image: url(/imag/feng-shui.jpg);
     background-size: 100vw 100vh;
     background-attachment: fixed;
     margin: 0;
-    margin-top: 5%;
+    margin-top: 0%;
     font-family: 'Hina Mincho', serif;
 }
 .form{
@@ -27,12 +28,15 @@ $subtitulos:#f8b2fa;
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 10%;
+    margin-bottom: 5%;
     border-radius: 7px;
 }
 .tituloF{
     font-family: 'Hina Mincho', serif;
-    font-size: 25px;
+    font-size: 35px;
     display: flex;
+    text-align: center;
+    justify-content: center;
     background-color: rgb(252, 233, 241);
     color: rgb(180, 178, 250);
 }
@@ -64,5 +68,123 @@ textarea{
 }
 .subtituloF{
     color: white;
+    margin-left: 25%;
+    padding-left: 40px;
+}
+.mapaF{
+    margin-left: 25%;
+}
+footer{
+    width: 100%;
+    background-color: #202020;
+    color: white;
+    
 }
 
+.containerFooterall{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+.containerBody{
+    display: flex;
+    justify-content: space-between;
+}
+.column1{
+    max-width: 300px;
+}
+
+.column1 .imgFooter{
+    width: 150px;
+    height: 150px;
+}
+
+.column1 h1{
+    font-size: 22px;
+}
+.column1 p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #c7c7c7;
+    margin-top: 20px;
+    text-align: center;
+}
+.column2{
+    max-width: 300px;
+
+}
+.column2 h1{
+    font-size: 22px;
+}
+.column2 .row{
+    margin-top: 20px;
+    display: flex;
+}
+.row .imgFooter{
+    width: 36px;
+    height: 36px;
+}
+
+.row .labelFooter{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #c7c7c7;
+}
+.column3{
+    max-width: 300px;
+}
+.column3 h1{
+    font-size: 22px;
+}
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+.row2 .imgFooter{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 .labelFooter{
+    margin-left: 20px;
+    max-width: 140px;
+    margin-top: 10px;
+}
+.containerFooter{
+    width: 100%;
+    background-color: #101010;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    color: #c7c7c7;
+}
+.copyrigth{
+    color: #c7c7c7;
+}
+.copyrigth a{
+    text-decoration: none;
+    color: #c7c7c7;
+    font-weight: bold;
+}
+.information a{
+    text-decoration: none;
+    color: #c7c7c7;
+}
+
+.column4{
+max-width: 300px;
+}
+
+.column4 h1{
+    font-size: 22px;
+}
+
+.column4 a{
+    text-decoration: none;
+    color: #c7c7c7;
+}
+.column4 .row{
+    margin-top: 20px;
+    display: flex;
+}
