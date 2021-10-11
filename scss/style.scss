@@ -2,8 +2,9 @@
 $azul:rgb(67, 67, 223);
 $azulClaro:rgb(90, 136, 236);
 $titulos:rgb(180, 178, 250);
-$subtitulos:#f8b2fa;
-
+$subtitulos:#e5d9e6;
+$sidebarli: #b1f46d;
+$sidebar: #00ba87;
 
 @import "indice";
 @import "historia";
@@ -188,3 +189,5 @@ max-width: 300px;
     margin-top: 20px;
     display: flex;
 }
+
+

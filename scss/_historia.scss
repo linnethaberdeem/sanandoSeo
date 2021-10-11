@@ -1,7 +1,8 @@
 .tituloHis{
     font-family: 'Hina Mincho', serif;
-    font-size: 25px;
+    font-size: 30px;
     display: flex;
+    justify-content: center;
     background-color: rgb(252, 233, 241);
     color: rgb(180, 178, 250);
     padding-top: 45px;
@@ -25,6 +26,7 @@
     margin-right: 10px;
     line-height: 45px;
     text-align: justify;
+    float: left;
 }
 
 .listaHis{ 
@@ -45,6 +47,7 @@
     border: 1px dashed crimson;
     background-color: rgb(223, 242, 248);
     margin: 25px;
+    float: left;
 }        
 
 .imagenHis{
@@ -52,67 +55,4 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-}
-
-/*Pestaña Productos*/
-
-.tituloPro{
-    font-family: 'Hina Mincho', serif;
-    font-size: 25px;
-    display: flex;
-    background-color: rgb(252, 233, 241);
-    color: rgb(180, 178, 250);
-    padding-top: 45px;
-    padding-bottom: 50px;
-}
-
-.subtituloPro{
-    font-family: 'Hina Mincho', serif;
-    font-size: 40px;
-    padding-left: 35px;
-    padding-bottom: 10px;
-    color: rgb(250, 153, 213);
-    text-underline-offset: 1px;
-}
-.seccionPro{
-    font-family: 'Hina Mincho', serif;
-    font-size: 19px;
-    margin-left: 20px;
-    margin-right: 10px;
-    padding-left: 15px;
-    padding-right: 10px;
-}
-
-
-.leeras{
-    display: none;
-}
-
-.objetivo{
-    opacity: 0;
-    max-height: 0;
-    font-size: 0;
-    transition: .25s ease;
-}
-.leeras:checked~.leerMas .objetivo{
-    opacity: 1;
-    font-size: inherit;
-    max-height: 999em;
-}
-.leeras~.leerMasmas:before{
-    content: "Leer más";
-}
-.leeras:checked~.LeerMasmas:before{
-    content: "Leer Menos";
-}
-
-.leerMasmas{
-    cursor: pointer;
-    display: inline-block;
-    padding: 0.5em;
-    color: #666;
-    font-size: .9em;
-    line-height: 2;
-    border: 1px solid #ddd;
-    border-radius: .25em;
 }

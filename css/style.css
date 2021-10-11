@@ -5,7 +5,7 @@
   box-sizing: border-box; }
 
 body {
-  font-family: Arial, Helvetica, sans-serif 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+  font-family: 'Hina Mincho', serif; }
 
 .contenedor {
   width: 90%;
@@ -34,8 +34,8 @@ body {
   font-family: 'Hina Mincho', serif;
   font-size: 50px; }
 
-.header_nav .tituloIndex {
-  color: #f8b2fa;
+.header_nav, .tituloIndex {
+  color: #e5d9e6;
   font-family: 'Hina Mincho', serif;
   font-size: 60px;
   max-width: 100%;
@@ -43,6 +43,9 @@ body {
   padding: auto;
   margin: auto;
   flex-direction: column; }
+
+.tituloIndex {
+  text-align: center; }
 
 .header_nav nav a {
   text-decoration: none;
@@ -56,7 +59,7 @@ body {
   margin-right: 10px;
   font-size: 23px;
   font-family: 'Hina Mincho', serif;
-  color: #f8b2fa; }
+  color: #e5d9e6; }
 
 .banner {
   display: flex;
@@ -204,10 +207,63 @@ body {
   .bg_animate {
     flex-direction: column; } }
 
+.sidebar {
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  background: #00ba87;
+  color: #fff;
+  outline: 1px solid #b1f46d; }
+
+.sidebar h2 {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  background: #b1f46d; }
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.sidebar li {
+  outline: 1px solid #b1f46d;
+  transition: all 0.3s; }
+
+.sidebar li:hover {
+  background: #00ba87;
+  border-left: 5px solid #eee; }
+
+.sidebar a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px; }
+
+.contenido {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 30px;
+  transition: all 0.3s;
+  background: linear-gradient(to right, #4343df, #5a88ec); }
+
+.menu-bar {
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 20px;
+  top: 20px; }
+
+.abrir {
+  transform: translateX(250px); }
+
 .tituloHis {
   font-family: 'Hina Mincho', serif;
-  font-size: 25px;
+  font-size: 30px;
   display: flex;
+  justify-content: center;
   background-color: #fce9f1;
   color: #b4b2fa;
   padding-top: 45px;
@@ -227,7 +283,8 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   line-height: 45px;
-  text-align: justify; }
+  text-align: justify;
+  float: left; }
 
 .listaHis {
   display: flex;
@@ -245,69 +302,14 @@ body {
 .bordeHis {
   border: 1px dashed crimson;
   background-color: #dff2f8;
-  margin: 25px; }
+  margin: 25px;
+  float: left; }
 
 .imagenHis {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px; }
-
-/*Pestaña Productos*/
-.tituloPro {
-  font-family: 'Hina Mincho', serif;
-  font-size: 25px;
-  display: flex;
-  background-color: #fce9f1;
-  color: #b4b2fa;
-  padding-top: 45px;
-  padding-bottom: 50px; }
-
-.subtituloPro {
-  font-family: 'Hina Mincho', serif;
-  font-size: 40px;
-  padding-left: 35px;
-  padding-bottom: 10px;
-  color: #fa99d5;
-  text-underline-offset: 1px; }
-
-.seccionPro {
-  font-family: 'Hina Mincho', serif;
-  font-size: 19px;
-  margin-left: 20px;
-  margin-right: 10px;
-  padding-left: 15px;
-  padding-right: 10px; }
-
-.leeras {
-  display: none; }
-
-.objetivo {
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  transition: .25s ease; }
-
-.leeras:checked ~ .leerMas .objetivo {
-  opacity: 1;
-  font-size: inherit;
-  max-height: 999em; }
-
-.leeras ~ .leerMasmas:before {
-  content: "Leer más"; }
-
-.leeras:checked ~ .LeerMasmas:before {
-  content: "Leer Menos"; }
-
-.leerMasmas {
-  cursor: pointer;
-  display: inline-block;
-  padding: 0.5em;
-  color: #666;
-  font-size: .9em;
-  line-height: 2;
-  border: 1px solid #ddd;
-  border-radius: .25em; }
 
 .tituloSer {
   font-family: 'Hina Mincho', serif;
@@ -367,12 +369,12 @@ body {
   margin-top: 2px;
   justify-content: left; }
 
-@media all and (min-width: 770px) and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .header_nav .contenedor {
     flex-direction: column;
     max-width: 100%; } }
 
-@media all and (min-width: 550px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .header_nav .contenedor {
     flex-direction: row;
     width: 100%;
@@ -394,10 +396,9 @@ body {
     margin-top: 40%;
     width: 100%; } }
 
-@media all and (min-width: 300px) and (orientation: landscape) {
+@media screen and (max-width: 480px) and (orientation: landscape) {
   .tituloIndex {
     max-width: 100%;
-    max-height: 100%;
     flex-direction: column;
     box-align: auto; }
   img {
@@ -424,6 +425,15 @@ body {
     flex-direction: column;
     margin-top: 40%;
     width: 100%; } }
+
+@media screen and (max-width: 1100px) {
+  .containerBody {
+    flex-wrap: wrap; }
+  .column1 {
+    max-width: 100%; }
+  .column2, .column3, .column4 {
+    margin-top: 40px;
+    max-width: 100%; } }
 
 .contenedorG {
   display: flex;
