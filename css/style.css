@@ -488,8 +488,8 @@ body {
   padding-top: 45px;
   padding-bottom: 50px; }
 
-.body {
-  background-image: url(/imag/universo.jpg);
+.bodyG {
+  background-image: url(/imag/feng-shui.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
   margin: 0;
@@ -559,7 +559,7 @@ h4 {
   border-radius: .25em; }
 
 /*formularios*/
-.body {
+.bodyform {
   background-image: url(/imag/feng-shui.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
