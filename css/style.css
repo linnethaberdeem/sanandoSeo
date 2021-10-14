@@ -478,13 +478,21 @@ body {
   flex-direction: column;
   margin: 10%; }
 
-.header_nav .contenedorGr {
-  margin: 5%; }
+.header_nave {
+  display: flex; }
+
+.contenedorGr nav a {
+  margin-left: 40px;
+  padding: 10px;
+  margin-top: 5%;
+  color: #24a7e4;
+  float: right;
+  font-size: 25px;
+  text-decoration: none; }
 
 .tituloG {
-  font-family: 'Hina Mincho', serif;
   font-size: 50px;
-  color: #b4b2fa;
+  color: #46bdf5;
   padding-top: 45px;
   padding-bottom: 50px; }
 
