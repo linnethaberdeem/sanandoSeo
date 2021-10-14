@@ -271,18 +271,30 @@ body {
 
 .subtituloHis {
   font-family: 'Hina Mincho', serif;
-  font-size: 25px;
+  font-size: 30px;
   padding-left: 35px;
   padding-bottom: 10px;
-  color: #fa99d5; }
+  color: #fa99d5;
+  font-weight: 1000; }
 
-.parrafoHis {
+.parrafoHisto {
   font-family: 'Hina Mincho', serif;
   font-size: 20px;
   padding: 35px;
   margin-left: 10px;
   margin-right: 10px;
-  line-height: 45px;
+  line-height: 30px;
+  text-align: justify;
+  float: left; }
+
+.parrafoHis {
+  font-family: 'Hina Mincho', serif;
+  font-size: 20px;
+  width: 600px;
+  padding: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 30px;
   text-align: justify;
   float: left; }
 
@@ -297,7 +309,7 @@ body {
   padding-right: 50px;
   margin-left: 10px;
   margin-right: 10px;
-  line-height: 45px; }
+  line-height: 30px; }
 
 .bordeHis {
   border: 1px dashed crimson;
@@ -309,7 +321,32 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px; }
+  padding: 20px;
+  margin-top: 500px; }
+
+.dos {
+  border: 1px dashed crimson;
+  background-color: #dff2f8;
+  width: 600px;
+  padding-left: 50px;
+  padding-right: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 25px;
+  line-height: 30px;
+  float: right; }
+
+.frase {
+  font-family: 'Hina Mincho', serif;
+  width: 600px;
+  font-size: 40px;
+  margin-top: 300px;
+  margin-left: 30px;
+  line-height: 30px;
+  text-align: justify;
+  position: absolute; }
 
 .tituloSer {
   font-family: 'Hina Mincho', serif;
