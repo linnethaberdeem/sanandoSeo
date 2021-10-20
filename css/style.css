@@ -407,13 +407,13 @@ body {
   justify-content: left; }
 
 @media screen and (max-width: 1200px) {
-  .header_nav .contenedor {
+  body, .bodyForm, .bodyG, .serv {
     flex-direction: column;
     max-width: 100%; } }
 
 @media screen and (max-width: 768px) {
-  .header_nav .contenedor {
-    flex-direction: row;
+  body, .bodyForm, .bodyG, .serv {
+    flex-direction: column;
     width: 100%;
     box-sizing: border-box; }
   .servicios img {
@@ -434,7 +434,7 @@ body {
     width: 100%; } }
 
 @media screen and (max-width: 480px) and (orientation: landscape) {
-  .tituloIndex {
+  body, .bodyForm, .bodyG, .serv {
     max-width: 100%;
     flex-direction: column;
     box-align: auto; }
@@ -633,6 +633,15 @@ footer {
   background-color: #202020;
   color: white; }
 
+.footerProd {
+  background-color: #202020;
+  font-family: 'Hina Mincho', serif;
+  font-size: 15px; }
+
+.row .imgFootprod {
+  width: 56px;
+  height: 36px; }
+
 .containerFooterall {
   width: 100%;
   max-width: 1200px;
@@ -644,21 +653,11 @@ footer {
   justify-content: space-between; }
 
 .column1 {
-  max-width: 300px; }
+  max-width: 200px; }
 
 .column1 .imgFooter {
   width: 150px;
   height: 150px; }
-
-.column1 h1 {
-  font-size: 22px; }
-
-.column1 p {
-  font-size: 14px;
-  font-weight: bold;
-  color: #c7c7c7;
-  margin-top: 20px;
-  text-align: center; }
 
 .column2 {
   max-width: 300px; }

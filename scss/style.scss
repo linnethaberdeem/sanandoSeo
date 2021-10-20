@@ -75,11 +75,23 @@ textarea{
 .mapaF{
     margin-left: 25%;
 }
+
+//FOOTER
+
 footer{
     width: 100%;
     background-color: #202020;
     color: white;
     
+}
+.footerProd{
+    background-color: #202020;
+    font-family: 'Hina Mincho', serif;
+    font-size: 15px;
+}
+.row .imgFootprod{
+    width: 56px;
+    height: 36px;
 }
 
 .containerFooterall{
@@ -93,7 +105,7 @@ footer{
     justify-content: space-between;
 }
 .column1{
-    max-width: 300px;
+    max-width: 200px;
 }
 
 .column1 .imgFooter{
@@ -101,23 +113,14 @@ footer{
     height: 150px;
 }
 
-.column1 h1{
-    font-size: 22px;
-}
-.column1 p{
-    font-size: 14px;
-    font-weight: bold;
-    color: #c7c7c7;
-    margin-top: 20px;
-    text-align: center;
-}
 .column2{
     max-width: 300px;
-
 }
+
 .column2 h1{
     font-size: 22px;
 }
+
 .column2 .row{
     margin-top: 20px;
     display: flex;

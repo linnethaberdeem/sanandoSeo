@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 1200px){
 
-    .header_nav .contenedor{
+    body, .bodyForm, .bodyG, .serv{
         flex-direction: column;
         max-width: 100%;
     }
@@ -10,8 +10,8 @@
 } 
 @media screen and (max-width: 768px){
     
-    .header_nav .contenedor{
-        flex-direction: row;
+    body, .bodyForm, .bodyG, .serv{
+        flex-direction: column;
         width: 100%;
         box-sizing: border-box;
     }
@@ -41,7 +41,7 @@
 } 
 @media screen and (max-width: 480px) and (orientation: landscape){
     
-    .tituloIndex{
+    body, .bodyForm, .bodyG, .serv{
         max-width: 100%;
         flex-direction: column;
         box-align: auto;
