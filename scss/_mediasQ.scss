@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 1200px){
 
-    body, .bodyForm, .bodyG, .serv{
+    body .bodyForm .bodyG .serv .bodyH{
         flex-direction: column;
         max-width: 100%;
     }
@@ -10,7 +10,7 @@
 } 
 @media screen and (max-width: 768px){
     
-    body, .bodyForm, .bodyG, .serv{
+    body .bodyForm .bodyG .serv .bodyH{
         flex-direction: column;
         width: 100%;
         box-sizing: border-box;
@@ -41,7 +41,7 @@
 } 
 @media screen and (max-width: 480px) and (orientation: landscape){
     
-    body, .bodyForm, .bodyG, .serv{
+    body .bodyForm .bodyG .serv .bodyH{
         max-width: 100%;
         flex-direction: column;
         box-align: auto;
@@ -78,9 +78,8 @@
         margin-top: 40%;
         width: 100%;
     }
-   
-
 } 
+
 @media screen and (max-width: 1100px){
    
     .containerBody{

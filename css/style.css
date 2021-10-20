@@ -259,8 +259,14 @@ body {
 .abrir {
   transform: translateX(250px); }
 
+.bodyH {
+  font-family: "Hina Mincho", serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  text-align: justify; }
+
 .tituloHis {
-  font-family: 'Hina Mincho', serif;
   font-size: 30px;
   display: flex;
   justify-content: center;
@@ -270,7 +276,6 @@ body {
   padding-bottom: 50px; }
 
 .subtituloHis {
-  font-family: 'Hina Mincho', serif;
   font-size: 30px;
   padding-left: 35px;
   padding-bottom: 10px;
@@ -278,7 +283,6 @@ body {
   font-weight: 1000; }
 
 .parrafoHisto {
-  font-family: 'Hina Mincho', serif;
   font-size: 20px;
   padding: 35px;
   margin-left: 10px;
@@ -288,7 +292,6 @@ body {
   float: left; }
 
 .parrafoHis {
-  font-family: 'Hina Mincho', serif;
   font-size: 20px;
   width: 600px;
   padding: 35px;
@@ -300,7 +303,6 @@ body {
 
 .listaHis {
   display: flex;
-  font-family: "Hina Mincho", serif;
   font-size: 20px;
   text-decoration: none;
   color: black;
@@ -312,10 +314,13 @@ body {
   line-height: 30px; }
 
 .bordeHis {
+  display: flex;
+  width: 600px;
   border: 1px dashed crimson;
   background-color: #dff2f8;
   margin: 25px;
-  float: left; }
+  float: left;
+  box-sizing: border-box; }
 
 .imagenHis {
   display: flex;
@@ -327,7 +332,7 @@ body {
 .dos {
   border: 1px dashed crimson;
   background-color: #dff2f8;
-  width: 600px;
+  max-width: 600px;
   padding-left: 50px;
   padding-right: 40px;
   padding-top: 25px;
@@ -339,7 +344,6 @@ body {
   float: right; }
 
 .frase {
-  font-family: 'Hina Mincho', serif;
   width: 600px;
   font-size: 40px;
   margin-top: 300px;
@@ -407,12 +411,12 @@ body {
   justify-content: left; }
 
 @media screen and (max-width: 1200px) {
-  body, .bodyForm, .bodyG, .serv {
+  body .bodyForm .bodyG .serv .bodyH {
     flex-direction: column;
     max-width: 100%; } }
 
 @media screen and (max-width: 768px) {
-  body, .bodyForm, .bodyG, .serv {
+  body .bodyForm .bodyG .serv .bodyH {
     flex-direction: column;
     width: 100%;
     box-sizing: border-box; }
@@ -434,7 +438,7 @@ body {
     width: 100%; } }
 
 @media screen and (max-width: 480px) and (orientation: landscape) {
-  body, .bodyForm, .bodyG, .serv {
+  body .bodyForm .bodyG .serv .bodyH {
     max-width: 100%;
     flex-direction: column;
     box-align: auto; }

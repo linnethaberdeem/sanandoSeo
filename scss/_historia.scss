@@ -1,5 +1,11 @@
+.bodyH{
+    font-family: "Hina Mincho", serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    text-align: justify;
+}
 .tituloHis{
-    font-family: 'Hina Mincho', serif;
     font-size: 30px;
     display: flex;
     justify-content: center;
@@ -10,7 +16,6 @@
 }
 
 .subtituloHis{
-    font-family: 'Hina Mincho', serif;
     font-size: 30px;
     padding-left: 35px;
     padding-bottom: 10px;
@@ -19,7 +24,6 @@
 }
 
 .parrafoHisto{
-    font-family: 'Hina Mincho', serif;
     font-size: 20px;
     padding: 35px;
     margin-left: 10px; 
@@ -29,7 +33,6 @@
     float: left;
 }
 .parrafoHis{
-    font-family: 'Hina Mincho', serif;
     font-size: 20px;
     width: 600px;
     padding: 35px;
@@ -42,7 +45,6 @@
 
 .listaHis{ 
     display: flex;
-    font-family: "Hina Mincho", serif;
     font-size: 20px;
     text-decoration: none;
     color: black;
@@ -55,10 +57,13 @@
 }   
 
 .bordeHis{
+    display: flex;
+    width: 600px;
     border: 1px dashed crimson;
     background-color: rgb(223, 242, 248);
     margin: 25px;
     float: left;
+    box-sizing: border-box;
 }      
 
 .imagenHis{
@@ -72,7 +77,7 @@
 .dos{
     border: 1px dashed crimson;
     background-color: rgb(223, 242, 248);
-    width: 600px;
+    max-width: 600px;
     padding-left: 50px;
     padding-right: 40px;
     padding-top: 25px;
@@ -84,7 +89,6 @@
     float: right;
 }
 .frase{
-    font-family: 'Hina Mincho', serif;
     width: 600px;
     font-size: 40px;
     margin-top: 300px;
