@@ -1,6 +1,6 @@
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1400px){
 
     body .bodyForm .bodyG .serv .bodyH{
         flex-direction: column;
@@ -39,7 +39,7 @@
 
 
 } 
-@media screen and (max-width: 480px) and (orientation: landscape){
+@media screen and (max-width: 576px) and (orientation: landscape){
     
     body .bodyForm .bodyG .serv .bodyH{
         max-width: 100%;
@@ -77,6 +77,10 @@
         flex-direction: column;
         margin-top: 40%;
         width: 100%;
+    }
+    .frase{
+        position: absolute;
+        right: 50%;
     }
 } 
 
